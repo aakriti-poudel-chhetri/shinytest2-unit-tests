@@ -1,0 +1,61 @@
+{
+  "input": {
+    "greeting_button_input": 1,
+    "name_input": "sam",
+    "penguin_spp_input": [
+      "Adelie",
+      "Chinstrap",
+      "Gentoo"
+    ]
+  },
+  "output": {
+    "greeting_output": "Hello sam!",
+    "scatterplot_output": {
+      "src": "[image data hash: 3460f6e8fda190703ad9792629f12194]",
+      "width": 797.328125,
+      "height": 400,
+      "alt": "Plot object",
+      "coordmap": {
+        "panels": [
+          {
+            "panel": 1,
+            "row": 1,
+            "col": 1,
+            "panel_vars": {
+
+            },
+            "log": {
+              "x": null,
+              "y": null
+            },
+            "domain": {
+              "left": 30.725,
+              "right": 60.975,
+              "bottom": 12.68,
+              "top": 21.92
+            },
+            "mapping": {
+              "x": "bill_length_mm",
+              "y": "bill_depth_mm",
+              "colour": "species",
+              "shape": "species"
+            },
+            "range": {
+              "left": 40.26005993150689,
+              "right": 791.5205479452055,
+              "bottom": 329.6486649310203,
+              "top": 5.479452054794522
+            }
+          }
+        ],
+        "dims": {
+          "width": 797.328125,
+          "height": 400
+        }
+      }
+    }
+  },
+  "export": {
+
+  }
+}

@@ -32,4 +32,35 @@ ui <- fluidPage(
     
   ), # END fluidRow (Feature 1: greeting)
   
+  hr(),
+  
+  # Feature 2 ------------------------------------------------------------------
+  
+  h1("Feature 2"),
+  
+  # fluidRow (Feature 2: plot) -----
+  fluidRow(
+    
+    # plot sidebarLayout ----
+    sidebarLayout(
+      
+      # plot sidebarPanel ----
+      sidebarPanel(
+        
+        # penguin spp pickerInput -----
+        penguin_spp_pickerInput(input = "penguin_spp_input")
+        
+      ), # END plot sidebarPanel
+      
+      # plot mainPanel ----
+      mainPanel(
+        
+        plotOutput(outputId = "scatterplot_output")
+        
+      ) # END plot mainPanel
+      
+    ) # END plot sidebarLayout
+    
+  ) # END fluidRow (Feature 2: plot)
+  
 ) # END fluidPage 

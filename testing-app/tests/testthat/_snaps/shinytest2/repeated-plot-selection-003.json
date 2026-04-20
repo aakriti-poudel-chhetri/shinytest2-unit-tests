@@ -1,0 +1,48 @@
+{
+  "output": {
+    "scatterplot_output": {
+      "src": "[image data hash: 9d49a940b4e419ebf9612618435c930b]",
+      "width": 797.328125,
+      "height": 400,
+      "alt": "Plot object",
+      "coordmap": {
+        "panels": [
+          {
+            "panel": 1,
+            "row": 1,
+            "col": 1,
+            "panel_vars": {
+
+            },
+            "log": {
+              "x": null,
+              "y": null
+            },
+            "domain": {
+              "left": 40.045,
+              "right": 58.855,
+              "bottom": 16.18,
+              "top": 21.02
+            },
+            "mapping": {
+              "x": "bill_length_mm",
+              "y": "bill_depth_mm",
+              "colour": "species",
+              "shape": "species"
+            },
+            "range": {
+              "left": 32.93193493150687,
+              "right": 791.5205479452054,
+              "bottom": 329.6486649310203,
+              "top": 5.479452054794522
+            }
+          }
+        ],
+        "dims": {
+          "width": 797.328125,
+          "height": 400
+        }
+      }
+    }
+  }
+}
